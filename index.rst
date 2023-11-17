@@ -16,7 +16,10 @@ Methodology
 The goal of this study was to analyze the velocities, accelerations, and jerks of the TMA mount during a series of random slews.  This was done using the azimuth and elevation velocity data stored in the EFD.  The position data was fit with a spline and compared to the measured data. The velocity data during a slew was also fit with a spline, which was then differentiated to obtain the acceleration data.  The acceleration spline was then smoothed before being differentitaed again to generate the jerk data. An earlier version of this technote had many slews which were failing for high jerk values.  It is believed that the improved smoothing algorithm shown here generates acceleration and jerk profiles which are more "real" and not as dependent on noise in the encoder data stream.
 
 The notebook that did this analysis and made the plots in this technote is available at:
-https://github.com/craiglagegit/Notebook_Keeper/blob/main/summit_notebooks/MTMount_Vel_Accel_Jerk_24Mar23.ipynb
+
+https://github.com/lsst-sitcom/notebooks_vandv
+at:
+notebooks/tel_and_site/subsys_req_ver/tma/SITCOMTN-067_Vel_Accel_Jerk_15Nov23.ipynb
 
 
 Results
