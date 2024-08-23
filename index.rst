@@ -1,14 +1,14 @@
-:tocdepth: 1
+######################################################
+Velocity, Acceleration, and Jerk analysis of TMA slews
+######################################################
 
-.. sectnum::
+.. abstract::
+
+   This technote shows analysis of velocity, acceleration, and jerk of the TMA during random walk slews of 3.5 degrees on multiple nights.  Most slews are within the specifications, but some fail, probably because of noisy values in the encoders.
+
+
 
 .. Metadata such as the title, authors, and description are set in metadata.yaml
-
-
-Abstract
-========
-
-This technote shows analysis of velocity, acceleration, and jerk of the TMA during random walk slews of 3.5 degrees on multiple nights.  All slews are within the specifications.
 
 Methodology
 ================
@@ -63,4 +63,3 @@ Summary
 ==========================
 
 This technote shows a summary of the TMA performance for velocity, acceleration, and jerk durin soak test on on two nights.  All slews meet the specifications for velocity, acceleration, and jerk.
-
